@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Room Booking Form</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">Booking Space</div>
+
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-phone"></i>
+              <input type="phone" placeholder="Phone Number" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email Address" />
+            </div>
+          </div>
+
+          <div class="date-time">
+            <div class="col">
+              <span>Check-in</span>
+
+              <div class="inputs">
+                <input type="date" />
+                <input type="time" />
+              </div>
+            </div>
+
+            <div class="col">
+              <span>Check-out</span>
+
+              <div class="inputs">
+                <input type="date" />
+                <input type="time" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="box">
+              <select>
+                <option value="" selected disabled>Adults</option>
+                <option value="">1 Adults</option>
+                <option value="">2 Adults</option>
+                <option value="">3 Adults</option>
+                <option value="">4 Adults</option>
+                <option value="">5 Adults</option>
+                <option value="">6 Adults</option>
+              </select>
+            </div>
+            <div class="box">
+              <select>
+                <option value="" selected disabled>Children</option>
+                <option value="">1 Children</option>
+                <option value="">2 Children</option>
+                <option value="">3 Children</option>
+                <option value="">4 Children</option>
+                <option value="">5 Children</option>
+                <option value="">6 Children</option>
+              </select>
+            </div>
+            <div class="box">
+              <select>
+                <option value="" selected disabled>Rooms</option>
+                <option value="">1 Rooms</option>
+                <option value="">2 Rooms</option>
+                <option value="">3 Rooms</option>
+                <option value="">4 Rooms</option>
+                <option value="">5 Rooms</option>
+                <option value="">6 Rooms</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn">Book Now</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
